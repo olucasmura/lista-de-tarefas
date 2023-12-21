@@ -1,0 +1,52 @@
+body {
+    background-color: #F0F8FF;
+}
+
+body h1 {
+    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    text-align: center;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+form {
+    text-align: center;
+    padding: 8px;   
+    margin-bottom: 30px;
+}
+
+li{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+label {
+    font-size: 24px;
+}
+
+li.completed {
+    text-decoration-line: line-through;
+} 
+
+#lista-ordenada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao {
+    background: rgb(37,57,159);
+    background: radial-gradient(circle, rgba(37,57,159,1) 0%, rgba(87,252,70,1) 100%);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+#tarefa {
+    font-size: 24px;
+}
+
+#botao:hover {
+    text-decoration:underline
+}
